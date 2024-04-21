@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moje książki - 2024</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Przeczytane książki 2024r</h1>
+            <div class="books">
+                <div class="book" data-ocena="5" data-autor="George R. R. Martin" data-tytul="Ogień i krew 1">
+                    <div class="cover" style=" background-image: url('covers/ogien-i-krew-1.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="4" data-autor="George R. R. Martin" data-tytul="Ogień i krew 2">
+                    <div class="cover" style=" background-image: url('covers/ogien-i-krew-2.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="Lucy Score" data-tytul="To co skrywamy przed światem">
+                    <div class="cover" style=" background-image: url('covers/lucy-score2.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="Lucy Score" data-tytul="To co chcemy zostawić za sobą" >
+                    <div class="cover" style=" background-image: url('covers/lucy-score3.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="J. K. Rowling" data-tytul="Harry Potter i Czara ognia">
+                    <div class="cover" style=" background-image: url('covers/harry-potter4.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="Camilla Lackberg" data-tytul="Niemiecki bękart">
+                    <div class="cover" style=" background-image: url('covers/niemiecki-bekart.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="Camilla Lackberg" data-tytul="Ofiara losu">
+                    <div class="cover" style=" background-image: url('covers/ofiara-losu.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="George R. R. Martin" data-tytul="Taniec ze smokami 1">
+                    <div class="cover" style=" background-image: url('covers/taniec-ze-smokami-1.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="George R. R. Martin" data-tytul="Taniec ze smokami 2">
+                    <div class="cover" style=" background-image: url('covers/taniec-ze-smokami-2.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="4" data-autor="Joseph Murphy" data-tytul="Moc przyciągania">
+                    <div class="cover" style=" background-image: url('covers/moc-przyciagania.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="4" data-autor="Agata Christie" data-tytul="Zabójstwo Rogera Ackroyda">
+                    <div class="cover" style=" background-image: url('covers/agata-christie.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="4" data-autor="Holly Jackson" data-tytul="Grzeczna dziewczynka musi zginąć">
+                    <div class="cover" style=" background-image: url('covers/holly-jackson3.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="4" data-autor="Holly Jackson" data-tytul="Grzeczna dziewczynka zepsuta krew">
+                    <div class="cover" style=" background-image: url('covers/holly-jackson2.jpg');"></div>
+                </div>
+                <div class="book" data-ocena="5" data-autor="Holly Jackson" data-tytul="Przewodnik po zbrodni według grzecznej dziweczynki">
+                    <div class="cover" style=" background-image: url('covers/holly-jackson1.jpg');"></div>
+                </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <div id="details">
+            Tytuł: <span id="details-tytul"></span><br><br>
+            Autor: <span id="details-autor"></span><br><br>
+            Ocena: <span id="details-ocena"></span><br><br>
+            <button>zamknij</button>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
